@@ -40,7 +40,7 @@ jobs:
 
       - uses: actions/download-artifact@v4
         with:
-          name: Helm-artifact
+          name: helm-artifact
           path: .
 
       - name: Set Up Helm
