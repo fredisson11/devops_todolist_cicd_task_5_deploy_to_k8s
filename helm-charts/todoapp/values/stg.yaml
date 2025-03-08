@@ -4,6 +4,7 @@ todoapp:
   namespace: todoapp-staging
   image:
     repository: fredisson11/todoapp
+    tag: placeholder
 
   resources:
     requests:
