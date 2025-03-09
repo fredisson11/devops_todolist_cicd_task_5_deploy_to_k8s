@@ -1,4 +1,5 @@
-namespace: mysql-staging
+mysql:
+  namespace: mysql-staging
 
 todoapp:
   namespace: todoapp-staging
@@ -27,4 +28,3 @@ todoapp:
       capacity: "1Gi"
     persistentVolumeClaim:
       requestStorage: "1Gi"
-      
